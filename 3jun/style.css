@@ -6,7 +6,7 @@
 .container {
     width: auto;
     height: 100vh;
-    background-color: #e76684;
+    background-color: #FAD4D4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +29,33 @@
     animation: spin 0.5s infinite linear;
 }
 
-.head {
+
+
+h1{
+    position: relative;
+    top: 0;
+    color: #321219;
     padding: 20px;
+    
+}
+h1::before{
+    content: attr(loading-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    color: #F47C7C;
+    overflow: hidden;
+    animation: loading 5s infinite linear;
+
+}
+
+@keyframes loading{
+    0%{
+        width:0;
+    }
+    100%{
+        width:100%;
+    }
 }
