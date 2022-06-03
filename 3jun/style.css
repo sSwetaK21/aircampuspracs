@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: auto;
+    height: 100vh;
+    background-color: #e76684;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loader {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-top: 8px solid rgba(255, 255, 255, 1);
+    border-left: 8px solid rgba(255, 255, 255, 1);
+    border-right: 8px solid rgba(255, 255, 255, 0);
+
+    animation: spin 0.5s infinite linear;
+}
+
+.head {
+    padding: 20px;
+}
