@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.gallery{
+    display: grid;
+    grid-template-areas: "img1 img2 img3"
+                         "img4 img5 img6";
+                         
+}
+
+.img1{
+    grid-area: img1;
+   
+}
+.img2{
+    grid-area: img2;
+}
+.img3  {
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}
