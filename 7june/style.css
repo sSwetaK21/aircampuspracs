@@ -1,0 +1,22 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+table,th,td {
+    padding: 10px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    /* border-color: chocolate; */
+    border: 2px solid black;
+}
+thead,tfoot{
+    background-color: #7c83da;
+    color: white;
+}
+tbody td:nth-child(1) {
+    background-color: #565cad;
+ }
+    
+tbody tr:nth-child(even){
+    background-color: #f2f2f2;
+}
