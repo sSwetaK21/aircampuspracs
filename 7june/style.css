@@ -13,13 +13,13 @@ thead,tfoot{
     background-color: #7c83da;
     color: white;
 }
-tbody td:nth-child(1) {
+/* tbody td:nth-child(1) {
     background-color: #565cad;
- }
+ } */
     
-tbody tr:nth-child(even){
+ tbody tr:nth-child(even){
     background-color: #f2f2f2;
-}
+} 
 th [scope="col"]{
     background-color: #7c83da;
 
