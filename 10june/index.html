@@ -41,8 +41,8 @@
             <hr>
             <br>
             <table>
-                <caption>
-                    Title
+                <caption style="caption-side:bottom ;">
+                    Table Title
                 </caption>
                 <colgroup>
                     <col span="2" style="background-color: #f1bc88">
@@ -116,7 +116,16 @@
               <h2>This is my Youtube channel</h2>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/LVg-Ets95tE" title="YouTube video player"   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+              <br>
+              <br>
+              <div class="dropdown">
+                <button class="dropbtn">Dropdown</button>
+                <div class="dropdown_content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
 
         </section>
         <br>
@@ -147,6 +156,14 @@
                 <button type="button" onclick="alert('Hello')">Click Me</button>
 
                 <br>
+                <input type="color" name="color" >
+                <br>
+                <input type="date" name="date" ><br>
+                <input type="file" name="file" ><br>
+                <input type="range" name="range" min="0" max="10" ><br>
+
+
+                <br>
                 <input list="browsers" name="browser">
                 <datalist id="browsers">
                     <option value="Internet Explorer">
@@ -157,6 +174,10 @@
 
             </fieldset>
             </form>
+
+           
+
+
         </section>
        
     </main>

@@ -36,3 +36,33 @@ dd {
     display: list-item;
     list-style-position: inside;
 }
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropbtn{
+    background-color: #4a8bb4;
+    color: white;
+    padding: 10px;
+    border: 1px solid darkblue;
+    cursor: pointer;
+}
+.dropdown_content{
+    display:none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 85px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; */
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+.dropdown_content a {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px 12px;
+    /* width: 43px; */
+}
