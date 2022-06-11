@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-.image_section{
+.image_section {
     width: auto;
     height: 500px;
     background-image: url("images/body_img.jpg");
@@ -12,17 +12,27 @@
     background-attachment: fixed;
 }
 
-table,th,td{
+table,
+th,
+td {
     border: 1px dotted black;
     width: 100%;
-     /* border-collapse: collapse;  */
+    /* border-collapse: collapse;  */
 }
-th,td{
+
+th,
+td {
     background-color: aquamarine;
     border-radius: 10px;
 }
+
 /* ol display properties */
 li {
     display: list-item;
     list-style-position: inside;
-  }
+}
+
+dd {
+    display: list-item;
+    list-style-position: inside;
+}
