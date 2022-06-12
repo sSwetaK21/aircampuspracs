@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 .image_section {
@@ -12,11 +13,16 @@
     background-attachment: fixed;
 }
 
+.div_table{
+    overflow-x: auto;
+}
+table{
+    width: 100%;
+}
 table,
 th,
 td {
     border: 1px dotted black;
-    width: 100%;
     /* border-collapse: collapse;  */
 }
 
@@ -47,6 +53,7 @@ dd {
     padding: 10px;
     border: 1px solid darkblue;
     cursor: pointer;
+    box-shadow:0px 2px 2px 0px red;
 }
 .dropdown_content{
     display:none;
@@ -65,4 +72,49 @@ dd {
     text-decoration: none;
     padding: 20px 12px;
     /* width: 43px; */
+}
+
+.outline_b{
+    /* border: 1px solid black;
+
+    outline: 2px dotted red;
+    outline-offset: 10px; */
+    text-decoration: wavy underline red 1px;
+    text-shadow: 2px 2px 4px red;
+}
+
+span{
+
+    border: 2px solid black;
+}
+.color{
+    background-image: radial-gradient(circle, #dd9b0e, #dd1515);
+}
+
+.circle{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #4a8bb4;
+}
+
+.flex_container{
+    display: flex;
+    width: auto;
+    height: 200px;
+    background-color: #4a8bb4;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.flex_container .flex_item{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #829c2c;
+    border: 2px solid beige;
+}
+
+.three{
+    flex-grow: 3;
 }
