@@ -13,12 +13,14 @@
     background-attachment: fixed;
 }
 
-.div_table{
+.div_table {
     overflow-x: auto;
 }
-table{
+
+table {
     width: 100%;
 }
+
 table,
 th,
 td {
@@ -43,20 +45,22 @@ dd {
     list-style-position: inside;
 }
 
-.dropdown{
+.dropdown {
     position: relative;
     display: inline-block;
 }
-.dropbtn{
+
+.dropbtn {
     background-color: #4a8bb4;
     color: white;
     padding: 10px;
     border: 1px solid darkblue;
     cursor: pointer;
-    box-shadow:0px 2px 2px 0px red;
+    box-shadow: 0px 2px 2px 0px red;
 }
-.dropdown_content{
-    display:none;
+
+.dropdown_content {
+    display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 85px;
@@ -64,9 +68,10 @@ dd {
     z-index: 1; */
 }
 
-.dropdown:hover .dropdown_content{
+.dropdown:hover .dropdown_content {
     display: block;
 }
+
 .dropdown_content a {
     list-style-type: none;
     text-decoration: none;
@@ -74,7 +79,7 @@ dd {
     /* width: 43px; */
 }
 
-.outline_b{
+.outline_b {
     /* border: 1px solid black;
 
     outline: 2px dotted red;
@@ -83,22 +88,23 @@ dd {
     text-shadow: 2px 2px 4px red;
 }
 
-span{
+span {
 
     border: 2px solid black;
 }
-.color{
+
+.color {
     background-image: radial-gradient(circle, #dd9b0e, #dd1515);
 }
 
-.circle{
+.circle {
     border-radius: 50%;
     width: 50px;
     height: 50px;
     background-color: #4a8bb4;
 }
 
-.flex_container{
+.flex_container {
     display: flex;
     width: auto;
     height: 200px;
@@ -107,7 +113,8 @@ span{
     flex-wrap: wrap;
     align-items: center;
 }
-.flex_container .flex_item{
+
+.flex_container .flex_item {
     width: 100px;
     height: 100px;
     margin: 10px;
@@ -115,6 +122,26 @@ span{
     border: 2px solid beige;
 }
 
-.three{
+.three {
     flex-grow: 3;
+}
+
+.inline {
+    display: inline;
+    background-color: #4a8bb4;
+}
+#inl{
+    background-color: #829c2c;
+}
+.inline_block{
+    display: inline-block;
+    background-color: #4a8bb4;
+    width: 200px;
+    height: 100px;
+}
+.block{
+    display: block;
+    background-color: #4a8bb4;
+    width: 200px;
+    height: 300px;
 }
