@@ -29,3 +29,40 @@ function quotientAndRemainder(a, b) {
   }
   return quotient + "," + remainder;
 }
+
+
+// Take a number and print the square of the number
+
+function numberSquare(num) {
+    //Write your code here
+    return num ** 2;
+  }
+  console.log(numberSquare(2))
+
+    // Take a number and print the cube of the number
+
+    function numberCube(num) {
+        return num ** 3;
+    }
+    console.log(numberCube(2))
+
+    // Take a number and print the square root of the number
+    function numberSquareRoot(num) {
+        return Math.sqrt(num);
+    }
+    console.log(numberSquareRoot(4))
+
+    // Take a number and print the cube root of the number
+    function numberCubeRoot(num) {
+        return Math.cbrt(num);
+    }
+    console.log(numberCubeRoot(8))
+
+    // Take a number and print the factorial of the number
+    function numberFactorial(num) {
+        let factorial = 1;
+        for (let i = 1; i <= num; i++) {
+            factorial = factorial * i;
+        }
+        return factorial;
+    }
