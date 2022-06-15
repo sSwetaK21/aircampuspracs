@@ -234,6 +234,23 @@ for (let i = 1; i <= n; i++) {
 /* Your answer here
 */
 
+let rollNo = 784;
+let name = "James";
+let mark1 = 70;
+let mark2 = 80;
+let mark3 = 90;
+let totalno = mark1 + mark2 + mark3;
+let percentage = totalno / 3;   
+if (percentage >= 80) {
+    console.log("Roll No : " + rollNo + " Name of Student : " + name + " Marks in Physics : " + mark1 + " Marks in Chemistry : " + mark2 + " Marks in Computer Application : " + mark3 + " Total Marks = " + totalno + " Percentage = " + percentage + " Division = First");
+} else if (percentage >= 60 && percentage < 80) {
+    console.log("Roll No : " + rollNo + " Name of Student : " + name + " Marks in Physics : " + mark1 + " Marks in Chemistry : " + mark2 + " Marks in Computer Application : " + mark3 + " Total Marks = " + totalno + " Percentage = " + percentage + " Division = Second");
+}else {
+    console.log("Roll No : " + rollNo + " Name of Student : " + name + " Marks in Physics : " + mark1 + " Marks in Chemistry : " + mark2 + " Marks in Computer Application : " + mark3 + " Total Marks = " + totalno + " Percentage = " + percentage + " Division = Third");
+}
+
+
+
 
 // 13. Write a program to read temperature in centigrade and display a suitable message according to temperature state below :
 // Temp < 0 then Freezing weather
@@ -248,6 +265,25 @@ for (let i = 1; i <= n; i++) {
 // Its very hot.
 /* Your answer here
 */
+let temp = 42;
+if (temp <0){
+    console.log("Freezing weather");
+} else if (temp >=0 && temp <=10){
+    console.log("Very Cold weather");
+} else if (temp >=10 && temp <=20){
+    console.log("Cold weather");
+} else if (temp >=20 && temp <=30){
+    console.log("Normal in Temp");
+} else if (temp >=30 && temp <=40){
+    console.log("Its Hot");
+} else {
+    console.log("Its Very Hot");
+}
+
+
+
+
+
 // 14. Write a program to check whether a triangle is Equilateral, Isosceles or Scalene.
 // Test Data :
 // 50 50 60
