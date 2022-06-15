@@ -157,6 +157,28 @@ if (x > 0 && y > 0) {
 // The candidate is not eligible for admission.
 /* Your answer here
 */
+
+let marks1 = 65;
+let marks2 = 51;
+let marks3 = 72;
+let total = 188;
+let total1 = 137;
+if (marks1 >= 65 && marks2 >= 55 && marks3 >= 50 && total >= 190 || total1 >= 140) {
+    console.log("The candidate is eligible for admission.");
+}
+else {
+    console.log("The candidate is not eligible for admission.");
+}
+
+
+
+
+
+
+
+
+
+
 // 11. Write a program to calculate the root of a Quadratic Equation.
 // Test Data : 1 5 7
 // Expected Output :
@@ -168,8 +190,33 @@ if (x > 0 && y > 0) {
 // let n2 = 5;
 // let n3 = 7;
 
+let n1 = 1;
+let n2 = 5;
+let n3 = 7;
+let d = (n1 * n1) - (4 * n2 * n3);
+if (d < 0) {
+    console.log("Root are imaginary");
+}
+else if (d == 0) {
+    console.log("Root are real and equal");
+}else {
+    console.log("Root are real and unequal");
+}
+
+
+
 
 // 12. Write a  program to find the sum of the first n natural numbers.
+
+let n = 10;
+let sum = 0;
+for (let i = 1; i <= n; i++) {
+    sum = sum + i;
+}
+
+
+
+
 // 12. Write a program to read roll no, name and marks of three subjects and calculate the total, percentage and division.
 // Test Data :
 // Input the Roll Number of the student :784
