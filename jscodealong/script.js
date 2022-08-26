@@ -17,6 +17,9 @@ submitBtn.addEventListener('click',function(event){
             let htmlTag = `<div class="cont">
             <div class="left">
             <h1 class="title">${e.strMeal}</h1>
+            <div class="imgBox"><img src="${e.strMealThumb}" width="300px" >
+            </div>
+            <p class="para">${e.strInstructions}</p>
             `
 
             container.innerHTML = htmlTag
